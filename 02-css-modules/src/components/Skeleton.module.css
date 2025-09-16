@@ -1,0 +1,32 @@
+.skeleton {
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--color-card-bg);
+}
+
+.image {
+    aspect-ratio: 1 / 1;
+    background-color: var(--color-border);
+    animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.content {
+    padding: var(--space-4);
+}
+
+.line {
+    height: 1rem;
+    margin-bottom: 0.75rem;
+    border-radius: 4px;
+    background-color: var(--color-border);
+    animation: pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.md {
+    width: 75%;
+}
+
+.sm {
+    width: 50%;
+}
